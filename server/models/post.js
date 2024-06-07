@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+import mongoose from "mongoose";
 
 const PostSchema = new mongoose.Schema({
   title: String,
@@ -8,4 +8,5 @@ const PostSchema = new mongoose.Schema({
   email: String
 });
 const PostModal = mongoose.model("Posts", PostSchema);
-module.exports = PostModal;
+
+export{PostModal}
