@@ -18,4 +18,6 @@ const Connection= async ()=>{
     }
 }
 
-export{Connection}
+//export{Connection}
+
+Connection()

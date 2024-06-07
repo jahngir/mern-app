@@ -5,12 +5,19 @@ import express from "express"
 // const jwt = require("jsonwebtoken");
 // const cookieParser = require("cookie-parser");
 import dotenv from "dotenv"
-import { Connection } from "./database/db.js";
+import cors from "cors"
+import cookieParser from "cookie-parser"
+// import { Connection } from "./database/db.js";
+import "./database/db.js"
 
 
 
 dotenv.config();
 const app = express();
+
+app.use(express.json())
+app.use(cors())
+app.use(cookieParser())
 
 // Why Express JS?
 
