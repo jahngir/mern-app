@@ -37,9 +37,9 @@ mongoose.connect(process.env.MONGO_DB);
 
 
 //New Auth API
-app.use('/auth',UserRouter)
+// app.use('/auth',UserRouter)
 
-app.use('/api',PostRouter)
+// app.use('/api',PostRouter)
 
 app.listen(process.env.PORT, () => {
   console.log("Server is running");
