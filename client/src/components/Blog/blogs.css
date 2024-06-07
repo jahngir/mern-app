@@ -1,0 +1,31 @@
+.general-css{
+    padding: 70px 20px;
+
+    .row{
+        border: 1px solid grey;
+        width: 85%;
+       background: #4864E3;
+       color: white;
+    }
+    form{
+        padding: 30px;
+    }
+    label{
+        font-size: 18px;
+    }
+    textarea{
+        height: 150px;
+    }
+    
+}
+
+.single-css{
+    padding: 70px 20px;
+    .author-css{    
+        background: #4864E3;
+        padding: 5px 10px;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
