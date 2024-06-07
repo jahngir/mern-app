@@ -1,6 +1,11 @@
-const express = require("express");
-const dotenv = require("dotenv");
-
+import express from "express"
+// const mongoose = require("mongoose");
+// const cors = require("cors");
+// const bcrypt = require("bcrypt");
+// const jwt = require("jsonwebtoken");
+// const cookieParser = require("cookie-parser");
+import dotenv from "dotenv"
+import { Connection } from "./database/db.js";
 
 
 
