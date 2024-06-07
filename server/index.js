@@ -34,6 +34,10 @@ app.use(express.json());
 
 // app.use('/api',PostRouter)
 
+app.get("/", (req,res)=>{
+  res.status(200).send("Server is running")
+})
+
 app.listen(process.env.PORT, () => {
   console.log("Server is running");
 });
